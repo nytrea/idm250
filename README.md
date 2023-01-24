@@ -12,6 +12,7 @@
 - Create a Database for your current environment. For example, `local_idm250_wp`
 - Download the latest version of WP from [wordpress.org](https://wordpress.org/download/)
 - First you need to visit the WordPress.org website to download a copy of WordPress. After downloading the file, you need to unzip it.
+- Congratulations!
 
 Next, copy the wordpress folder inside and paste it into your servers root folder.
 
