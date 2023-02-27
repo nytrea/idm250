@@ -16,8 +16,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    background-color: #34201B;
+    background-color: #F2E5D3;
     height: 6rem;
     margin-bottom: 2em;
     font-family: 'Forum';
@@ -25,17 +24,40 @@ header {
 
 .nav-title{
     font-family: 'Forum';
-    color: white;
+    color: #452415;
+    font-size: 2rem;
+    text-decoration: none;
 }
+
+.nav-title:hover{
+    color: #AC5139;
+}
+
+/*all paragraph styles will have the following margins*/
+p{
+    margin: 4rem 12rem;
+    font-family: 'Open-Sans';
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
 
 
   footer{
     margin-top: 2rem;
-    background-color: #F2E5D3;
-    color: white;
-    height: 12rem;
+    background-color: #fdf7ee;
+    height: 4rem;
     position: absolute;
     bottom: 0;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-family: 'Open-Sans';
+    font-size: 1rem;
+    opacity: 70%;
+  }
+
+  .footer-title{
+    padding: 0 0.4rem;
   }
