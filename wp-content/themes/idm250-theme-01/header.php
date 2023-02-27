@@ -11,13 +11,15 @@
 
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
-  <?php
-  // @link https://developer.wordpress.org/reference/functions/wp_body_open/
-  // Fires the wp_body_open action.
-  wp_body_open();
-//   get_template_part('components/header')
-    $menu = wp_nav_menu(['theme_location' => 'primary-menu']);
-  ?>
+  <header>
+    <?php
+    // @link https://developer.wordpress.org/reference/functions/wp_body_open/
+    // Fires the wp_body_open action.
+    wp_body_open();
+    //   get_template_part('components/header')
+        $menu = wp_nav_menu(['theme_location' => 'primary-menu']);
+    ?>
+  </header>
   
   
   <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
