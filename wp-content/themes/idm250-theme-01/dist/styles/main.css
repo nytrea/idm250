@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #F2E5D3;
-    height: 6rem;
+    height: 8rem;
     margin-bottom: 2em;
     font-family: 'Forum';
   }
@@ -27,12 +27,15 @@ header {
 }
 
 .nav-title-container{
-  display: inline-block;
+  margin: 4rem 0 2rem 6rem;
+  display: block;
+  float: left;
 }
 
 .menu-header-menu-01-container{
-  display: inline-block;
-  
+  margin: 4rem 6rem 0 2rem;
+  display: block;
+  float: right;
 }
 
 .menu{
@@ -40,9 +43,10 @@ header {
 }
 
 .menu-item{
-  padding: 0.5rem;
+  padding: 0.5rem 1.4rem;
   font-family: 'Open-Sans';
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .nav-title{
