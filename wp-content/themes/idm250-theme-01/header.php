@@ -15,7 +15,9 @@
   // @link https://developer.wordpress.org/reference/functions/wp_body_open/
   // Fires the wp_body_open action.
   wp_body_open();
-  get_template_part('components/header')?>
-  
+//   get_template_part('components/header')
+    $menu = wp_nav_menu(['theme_location' => 'primary-menu']);
   ?>
+  
+  
   <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
