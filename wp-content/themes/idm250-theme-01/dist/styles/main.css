@@ -8,14 +8,15 @@
     src: url('../fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 
-
 *{
     color: rgb(0, 0, 0);
 }
 
+
+/* header styles */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #F2E5D3;
     height: 8rem;
     margin-bottom: 2em;
@@ -23,17 +24,17 @@ header {
   }
 
 .nav-container{
-  width: 100%;
+  width: 80%;
 }
 
 .nav-title-container{
-  margin: 4rem 0 2rem 6rem;
+  margin: 4rem 0;
   display: block;
   float: left;
 }
 
 .menu-header-menu-01-container{
-  margin: 4rem 6rem 0 2rem;
+  margin: 4rem 0;
   display: block;
   float: right;
 }
@@ -42,22 +43,28 @@ header {
   display: flex;
 }
 
-.menu-item{
-  padding: 0.5rem 1.4rem;
-  font-family: 'Open-Sans';
-  font-size: 1.1rem;
-  text-decoration: none;
-}
-
 .nav-title{
     font-family: 'Forum';
     color: #452415;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-decoration: none;
 }
 
 .nav-title:hover{
     color: #AC5139;
+    transition: ease-in, 0.1s;
+}
+
+.menu-item{
+  padding: 0.5rem 2.5rem;
+  font-family: 'Open-Sans';
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.menu-item:hover{
+  color: #AC5139;
+    transition: ease-in, 0.1s;
 }
 
 /*all paragraph styles will have the following margins*/
@@ -68,8 +75,11 @@ p{
     line-height: 1.6rem;
 }
 
+a{
+  text-decoration: none;
+}
 
-
+/* footer styles */
   footer{
     margin-top: 2rem;
     background-color: #868966;
