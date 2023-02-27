@@ -98,3 +98,44 @@ a{
   .footer-title{
     padding: 0 0.4rem;
   }
+
+
+  @media screen and (max-width:800px){
+    p{
+      margin: 2rem 4rem;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+
+    nav-container{
+      width: 80%;
+    }
+    
+    .nav-title-container{
+      display: block;
+      margin: 2rem;
+    }
+    
+    .menu-header-menu-01-container{
+      display: block;
+      margin: 1rem;
+    }
+    
+    .menu{
+      
+    }
+    
+    .nav-title{
+        font-family: 'Forum';
+        color: #452415;
+        font-size: 2.2rem;
+        text-decoration: none;
+    }
+    
+    .menu-item{
+      font-family: 'Open-Sans';
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+
+  }
