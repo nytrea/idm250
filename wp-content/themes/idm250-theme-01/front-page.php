@@ -2,21 +2,15 @@
 
 <h1> <?php echo get_the_title(); ?></h1>
 
+<!-- if there's a featured image it'll be registered here -->
 <?php
-    if(have_posts()){
+if (has_post_thumbnail()){
+    the_post_thumbnail();
+}
 
-        //load posts loop
-        while (have_posts()){
-            the_post();
-            the_content();
-        }
-    }
-    else{
-        echo 'no posts found';
-    }
-    
 ?>
 
+<!-- used to block out content on a page -->
 <?php get_template_part('components/content');?>
 
 <?php get_footer(); ?>
