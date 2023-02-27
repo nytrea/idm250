@@ -1,18 +1,9 @@
-<!-- <?php 
-
-echo 'hello, this is the functions file'; 
-
-?>  -->
-
-
 <?php
 
 //  Functions and definitions
  
 //  @link https://developer.wordpress.org/themes/basics/theme-functions/
  
-
-
 //  This function is called when the theme is activated. This is where we
 //  will add all of our scripts and styles.
 //  @return void
@@ -60,6 +51,35 @@ add_theme_support('post-thumbnails');
 
 add_post_type_support('page', 'excerpt');
 
+/**
+ * @link https://codex.wordpress.org/Navigation_Menus
+ * @return void
+ */
+function register_theme_menus()
+{
+    register_nav_menus(
+        [
+            'primary-menu' => 'Primary Menu',
+            'footer-menu' => 'Footer Menu'
+        ]
+    );
+}
+add_action('init', 'register_theme_menus');
+
+/**
+ * Get menu items as a flat array to use for custom markup
+ * @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
+ * @param string $menu_name - Name of the registered menu id
+ * @return array $menu_items - Array of WP_Post objects.
+ */
+function get_theme_menu($menu_name)
+{
+    // Get menu items as a flat array
+    $locations = get_nav_menu_locations();
+    $menu = wp_get_nav_menu_object($locations[$menu_name]);
+    $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
+    return $menu_items;
+}
 
 /**
  * Function to register custom post types
@@ -86,15 +106,5 @@ function register_custom_post_types()
 }
 
 add_action('init', 'register_custom_post_types');
-
-function register_theme_menus()
-{
-    register_nav_menus([
-        'primary-menu' => 'Primary Menu',
-        'footer-menu' => 'Footer Menu'
-    ]);
-    
-}
-add_action('init', 'register_theme_menus');
 
 
