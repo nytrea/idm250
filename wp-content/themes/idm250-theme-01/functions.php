@@ -106,3 +106,6 @@ function register_theme_menus()
 add_action('init', 'register_theme_menus');
 
 
+
+// changing taxonomy functions
+
