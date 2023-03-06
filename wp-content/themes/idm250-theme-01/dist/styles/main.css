@@ -48,6 +48,7 @@ cite{
   margin: 2rem auto;
   display: flex;
   font-family: 'Open-Sans';
+  text-align: center;
 }
 
 a{
@@ -55,8 +56,15 @@ a{
 }
 
 ul{
-  list-style-type:circle;
+  margin-left: 6rem;
+  list-style-type: circle;
 }
+
+ol{
+  margin-left: 6rem;
+  list-style-type: numbers;
+}
+
 
 img{
   width: 60%;
