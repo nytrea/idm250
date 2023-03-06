@@ -21,12 +21,8 @@ h2{
   color: #7A2719;
   font-size: 4rem;
   font-family: 'Forum';
-  margin: 6rem 8rem 4rem 8rem;
+  margin: 6rem 8rem 3rem 8rem;
   text-align: center;
-}
-
-ul{
-  list-style-type:circle;
 }
 
 p{
@@ -36,8 +32,36 @@ p{
     line-height: 2rem;
 }
 
+caption{
+  font-size: 0.6rem;
+  color: black;
+  opacity: 70%;
+  margin: 2rem auto;
+  display: flex;
+  font-family: 'Open-Sans';
+}
+
+cite{
+  font-size: 0.9rem;
+  color: black;
+  opacity: 70%;
+  margin: 2rem auto;
+  display: flex;
+  font-family: 'Open-Sans';
+}
+
 a{
   text-decoration: none;
+}
+
+ul{
+  list-style-type:circle;
+}
+
+img{
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
 }
 
 
@@ -123,7 +147,7 @@ header {
     font-family: 'Open-Sans';
     font-size: 1rem;
     opacity: 70%;
-    color: brown;
+    color: #452415;
   }
 
 
