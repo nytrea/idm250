@@ -87,7 +87,7 @@ function register_custom_post_types()
             'public' => true,
             'has_archive' => true,
             'rewrite' => ['slug' => 'handicrafts'],
-            'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+            'supports' => ['title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'],
             'show_in_rest' => true,
         ]
     );
