@@ -18,5 +18,5 @@ if (has_post_thumbnail()){
 
 <!-- used to block out content on a page -->
 <?php get_template_part('components/content');?>
-
+r
 <?php get_footer(); ?>
