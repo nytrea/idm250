@@ -116,7 +116,6 @@ header {
     display: flex;
     justify-content: center;
     opacity: 70%;
-    bottom: 0;
   }
 
   .footer-descriptor{
