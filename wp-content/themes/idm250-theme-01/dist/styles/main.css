@@ -56,13 +56,18 @@ a{
 }
 
 ul{
-  margin-left: 6rem;
+  /* margin: 4rem 16rem; */
   list-style-type: circle;
 }
 
 ol{
-  margin-left: 6rem;
+  margin-left: 16rem;
   list-style-type: numbers;
+}
+
+li{
+  font-size: 1.4rem;
+  font-family: 'Open-Sans';
 }
 
 
