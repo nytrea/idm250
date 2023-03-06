@@ -4,8 +4,10 @@
         <?php get_template_part("components/content"); ?>
     </article>
 
-    <h1><?php echo get_the_title(); ?></h1>
+    <h1 class="single-page-title"></h1><?php echo get_the_title(); ?></h1>
     <div><?php echo get_the_excerpt(); ?></div>
+
+
     <!-- <h2> </h2> -->
 
     <!-- <div class="blog-categories">

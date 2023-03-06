@@ -13,6 +13,34 @@
 }
 
 
+/*all paragraph styles will have the following margins*/
+h1{
+}
+
+h2{
+  color: #7A2719;
+  font-size: 4rem;
+  font-family: 'Forum';
+  margin: 6rem 8rem 4rem 8rem;
+  text-align: center;
+}
+
+ul{
+  list-style-type:circle;
+}
+
+p{
+    margin: 4rem 16rem;
+    font-family: 'Open-Sans';
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+
 /* header styles */
 header {
     display: flex;
@@ -35,6 +63,7 @@ header {
   float: left;
 }
 
+
 .menu-header-menu-01-container{
   margin: 4rem 0;
   display: block;
@@ -43,6 +72,7 @@ header {
 
 .menu{
   display: flex;
+  list-style-type: none;
 }
 
 .nav-title{
@@ -70,17 +100,11 @@ header {
     transition: ease-in, 0.1s;
 }
 
-/*all paragraph styles will have the following margins*/
-p{
-    margin: 4rem 12rem;
-    font-family: 'Open-Sans';
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+/* single page content */
+.single-page-title{
+  color: brown;
 }
 
-a{
-  text-decoration: none;
-}
 
 /* footer styles */
   footer{
@@ -100,6 +124,7 @@ a{
     font-family: 'Open-Sans';
     font-size: 1rem;
     opacity: 70%;
+    color: brown;
   }
 
 
