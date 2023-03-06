@@ -88,11 +88,11 @@ a{
     background-color: #F2E5D3;
     height: 10rem;
     position: absolute;
-    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     opacity: 70%;
+    bottom: 0;
   }
 
   .footer-descriptor{
