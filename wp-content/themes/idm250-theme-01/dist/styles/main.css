@@ -50,23 +50,28 @@ p{
     line-height: 2rem;
 }
 
-caption{
-  font-size: 0.6rem;
+figcaption{
+  font-size: 1rem;
   color: black;
   opacity: 70%;
-  margin: 2rem auto;
-  display: flex;
+  text-align: center;
   font-family: 'Open-Sans';
 }
 
+
+blockquote p{
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  font-family: 'Forum';
+}
+
 cite{
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: black;
   opacity: 70%;
-  margin: 2rem auto;
-  display: flex;
-  font-family: 'Open-Sans';
   text-align: center;
+  font-family: 'Open-Sans-Italic';
 }
 
 a{
@@ -79,18 +84,19 @@ a:hover{
 }
 
 ul{
-  /* margin: 4rem 16rem; */
-  list-style-type: circle;
+  margin: 4rem 16rem;
+  list-style-type: circle; 
 }
 
 ol{
-  margin-left: 16rem;
+  margin: 4rem 16rem;
   list-style-type: numbers;
 }
 
 li{
   font-size: 1.4rem;
-  font-family: 'Open-Sans';
+  font-family: 'Forum';
+  line-height: 30px;
 }
 
 
@@ -138,6 +144,10 @@ header {
   margin: 4rem 0;
   display: block;
   float: right;
+}
+
+.menu-header-menu-01-container ul{
+  margin: 0;
 }
 
 .menu{
