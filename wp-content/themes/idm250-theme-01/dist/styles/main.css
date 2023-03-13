@@ -196,6 +196,32 @@ header {
   color: brown;
 }
 
+/* 404 page */
+.error-title{
+  font-size: 7rem;
+  font-family: 'Open-Sans';
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.error-img{
+  width: 18%;
+}
+
+.error-message{
+  color:#7A2719;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.error-footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin:2rem 0;
+  width: 100%;
+}
 
 /* footer styles */
   footer{
