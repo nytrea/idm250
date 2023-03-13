@@ -14,23 +14,23 @@
     <h2> Categories for this post </h2> -->
 
 
-        <!-- <?php
-    // $currentPostID = get_the_id();
-    // $terms = get_the_terms($currentPostID, 'category');
+        <?php
+    $currentPostID = get_the_id();
+    $terms = get_the_terms($currentPostID, 'category');
 
-    // if ($terms){
-    //     foreach ($terms as $term){
-    //         echo "<span>{$term->name}</span>";
-    //     }
-    // }
+    if ($terms){
+        foreach ($terms as $term){
+            echo "<span>{$term->name}</span>";
+        }
+    }
     ?>
     </div>
     <?php
 
     //checks if the post has a thumbnail
-    // if (has_post_thumbnail()) {
-    // the_post_thumbnail();
-    // }
-    ?> -->
+    if (has_post_thumbnail()) {
+    the_post_thumbnail();
+    }
+    ?>
 
 <?php get_footer(); ?>

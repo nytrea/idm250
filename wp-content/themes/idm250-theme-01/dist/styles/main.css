@@ -30,6 +30,19 @@ h2{
   text-align: center;
 }
 
+h3{
+  font-size: 1.4rem;
+  font-family: 'Open-Sans';
+  text-align: center;
+  margin: 1rem 14rem;
+  line-height: 30px;
+}
+
+hr{
+  width: 5rem;
+  padding: 0.1rem 0;
+}
+
 p{
     margin: 4rem 16rem;
     font-family: 'Open-Sans';
