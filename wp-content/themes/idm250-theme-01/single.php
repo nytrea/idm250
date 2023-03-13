@@ -3,9 +3,11 @@
     <article id='post-<?php the_ID(); ?>' <?php post_class(); ?>>
         <?php get_template_part("components/content"); ?>
     </article>
-
-    <h1 class="single-page-title"></h1><?php echo get_the_title(); ?></h1>
-    <div><?php echo get_the_excerpt(); ?></div>
+    
+<!-- 
+    <div><?php 
+    // echo get_the_excerpt();
+     ?></div> -->
 
 
     <!-- <h2> </h2> -->
@@ -14,17 +16,17 @@
     <h2> Categories for this post </h2> -->
 
 
-        <?php
-    $currentPostID = get_the_id();
-    $terms = get_the_terms($currentPostID, 'category');
+    <?php
+    // $currentPostID = get_the_id();
+    // $terms = get_the_terms($currentPostID, 'category');
 
-    if ($terms){
-        foreach ($terms as $term){
-            echo "<span>{$term->name}</span>";
-        }
-    }
-    ?>
-    </div>
+    // if ($terms){
+    //     foreach ($terms as $term){
+    //         echo "<span>{$term->name}</span>";
+    //     }
+    // }
+    // ?>
+    <!-- // </div> -->
     <?php
 
     //checks if the post has a thumbnail
