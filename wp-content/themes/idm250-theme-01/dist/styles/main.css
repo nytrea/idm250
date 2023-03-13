@@ -8,6 +8,11 @@
     src: url('../fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 
+@font-face {
+  font-family: 'Open-Sans-Italic';
+  src: url('../fonts/OpenSans/OpenSans-Italic-VariableFont_wdth\,wght.ttf');
+}
+
 *{
     color: rgb(0, 0, 0);
 }
@@ -76,6 +81,12 @@ img{
   margin: 2rem auto;
   display: flex;
 }
+
+strong{
+  font-weight: 700;
+}
+
+
 
 
 /* header styles */
