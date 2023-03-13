@@ -71,6 +71,11 @@ cite{
 
 a{
   text-decoration: none;
+  color:#7A2719;
+}
+
+a:hover{
+  color:#AC5139;
 }
 
 ul{
@@ -95,11 +100,15 @@ img{
   display: flex;
 }
 
+/* bold */
 strong{
   font-weight: 700;
 }
 
-
+/* italic */
+em{
+  font-family: 'Open-Sans-Italic';
+}
 
 
 /* header styles */
