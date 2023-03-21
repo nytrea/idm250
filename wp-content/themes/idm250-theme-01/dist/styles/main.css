@@ -284,6 +284,18 @@ header {
 
   }
 
+/* Blog Posts */
+.blog-listing-image{
+  width: 40%;
+}
+
+.blog-listing-date{
+  justify-content: center;
+  display: flex;
+  font-family: 'Open-Sans';
+  margin-bottom: 5rem;
+}
+
   @media screen {
     
   }
