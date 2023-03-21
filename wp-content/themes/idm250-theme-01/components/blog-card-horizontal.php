@@ -24,25 +24,5 @@
       </p>
       <?php endif; ?>
     </div>
-    <div class="mt-6 flex border-t border-gray-900/5 pt-6">
-      <div class="relative flex items-center gap-x-4">
-        <?php
-        $author_id = get_the_author_meta('ID');
-    $author_image_size = 32;
-    $author_args = [
-        'class' => 'h-10 w-10 rounded-full bg-gray-50'
-    ];
-    $author_image_html = get_avatar($author_id, $author_image_size, '', '', $author_args);
-    echo $author_image_html ?>
-        <div class="text-sm leading-6">
-          <p class="font-semibold text-gray-900">
-            <a href="<?php echo get_the_permalink(); ?>">
-              <span class="absolute inset-0"></span>
-              <?php echo get_the_author_meta('user_nicename'); ?>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
   </div>
 </article>
