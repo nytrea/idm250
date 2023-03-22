@@ -30,7 +30,7 @@ $blog_posts_query = new WP_Query($args);
                 // This is where the post's data is set up
                 $blog_posts_query->the_post();
                 // This is where we include the blog card component
-                get_template_part('components/blog-card-horizontal');
+                get_template_part('components/collection-item-card');
             }
             // Restore original Post Data
             wp_reset_postdata();
