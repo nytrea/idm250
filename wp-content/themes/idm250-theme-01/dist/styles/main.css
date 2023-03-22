@@ -296,6 +296,9 @@ header {
   margin-bottom: 5rem;
 }
 
+.attachment-post-thumbnail{
+  width: 50%;
+}
   @media screen {
     
   }
