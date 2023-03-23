@@ -69,9 +69,11 @@ h4{
 }
 
 h5{
-  font-size: 3rem;
-  color: var(--beige);
-  font-family: 'Forum';
+    width: 60%;
+    margin: 0.5rem auto;
+    font-family: 'Open-Sans';
+    font-size: 1rem;
+    line-height: 2rem;
 
 }
 
