@@ -21,7 +21,7 @@ $blog_posts_query = new WP_Query($args);
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         <?php echo get_the_title(); ?>
       </h2>
-      <div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
+      <div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20 collection-items">
         <?php
         // Check if there are any posts
         if ($blog_posts_query->have_posts()) {

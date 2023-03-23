@@ -17,13 +17,25 @@
     color: rgb(0, 0, 0);
 }
 
+:root{
+  --brick-red: #7A2719;
+  --terracotta: #AC5139;
+  --dark-brown: #452415;
+  --mud: #764E42;
+  --beige: #F2E5D3;
+  --pale-ochre: #D6BA92;
+  --olive: #868966;
+  --pine-leaves: #34383B;
+  --coal: #120C0B;
+}
+
 
 /*all paragraph styles will have the following margins*/
 h1{
 }
 
 h2{
-  color: #7A2719;
+  color: var(--brick-red);
   font-size: 4rem;
   font-family: 'Forum';
   margin: 6rem 8rem 3rem 8rem;
@@ -44,7 +56,7 @@ hr{
 }
 
 p{
-    margin: 4rem 16rem;
+    margin: 0.5rem;
     font-family: 'Open-Sans';
     font-size: 1rem;
     line-height: 2rem;
@@ -52,7 +64,7 @@ p{
 
 figcaption{
   font-size: 1rem;
-  color: black;
+  color: var(--coal);
   opacity: 70%;
   text-align: center;
   font-family: 'Open-Sans';
@@ -68,7 +80,7 @@ blockquote p{
 
 cite{
   font-size: 1rem;
-  color: black;
+  color: var(--coal);
   opacity: 70%;
   text-align: center;
   font-family: 'Open-Sans-Italic';
@@ -76,11 +88,11 @@ cite{
 
 a{
   text-decoration: none;
-  color:#7A2719;
+  color: var(--brick-red);
 }
 
 a:hover{
-  color:#AC5139;
+  color:var(--terracotta);
 }
 
 ul{
@@ -123,7 +135,7 @@ em{
 }
 
 .wp-block-button a:hover{
-  color: #F2E5D3;
+  color: var(--beige);
 }
 
 
@@ -168,13 +180,13 @@ header {
 
 .nav-title{
     font-family: 'Forum';
-    color: #452415;
+    color: var(--dark-brown);
     font-size: 2.5rem;
     text-decoration: none;
 }
 
 .nav-title:hover{
-    color: #AC5139;
+    color: var(--terracotta);
     transition: ease-in, 0.1s;
 }
 
@@ -183,17 +195,17 @@ header {
   font-family: 'Open-Sans';
   font-size: 1.1rem;
   text-decoration: none;
-  color: #AC5139;
+  color: var(--terracotta);
 }
 
 .menu-item:hover{
-  color: #D6BA92;
+  color: var(--pale-ochre);
     transition: ease-in, 0.1s;
 }
 
 /* single page content */
 .single-page-title{
-  color: brown;
+  color: var(--brick-red);
 }
 
 /* 404 page */
@@ -210,7 +222,7 @@ header {
 }
 
 .error-message{
-  color:#7A2719;
+  color:var(--brick-red);
   font-size: 1.4rem;
   text-align: center;
 }
@@ -226,7 +238,7 @@ header {
 /* footer styles */
   footer{
     margin-top: 2rem;
-    background-color: #F2E5D3;
+    background-color: var(--beige);
     height: 10rem;
     width: 100%;
     display: flex;
@@ -240,7 +252,7 @@ header {
     font-family: 'Open-Sans';
     font-size: 1rem;
     opacity: 70%;
-    color: #452415;
+    color: var(--dark-brown);
   }
 
 
@@ -271,7 +283,7 @@ header {
     
     .nav-title{
         font-family: 'Forum';
-        color: #452415;
+        color: var(--dark-brown);
         font-size: 2.2rem;
         text-decoration: none;
     }
@@ -300,12 +312,53 @@ header {
   width: 50%;
 }
 
-.item-listing-description{
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
+/* Items in Collection */
+.item-title{
+  margin: 0;
+  color: var(--brick-red);
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
 }
 
-  @media screen {
-    
+.item-listing-description{
+  text-align: center;
+  margin: 0;
+}
+
+.collection-items{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  max-width:fit-content;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.item-card{
+  width: 33%;
+  flex-direction: row;
+}
+
+.item-listing-image{
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.item-content{
+  text-align: center;
+}
+
+  @media screen and (min-width: 660px) and (max-width: 1000px){
+    .item-card{
+      width: 50%;
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (max-width: 660px) {
+    .item-card{
+      width: 100%;
+      flex-direction: row;
+    }
   }
