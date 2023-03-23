@@ -7,11 +7,15 @@
 <!-- if there's a featured image it'll be registered here -->
 
 
-<div>
-   <div class="hero-image-container overlay">
+<div class="overlay">
+   <div class="hero-image-container" style="background-image: url(
+      <?php echo get_the_post_thumbnail_url(); ?>
+      )">
    </div>
 </div>
 
+
+  
 
 <!-- <div class="title">
    <h1> <?php 
