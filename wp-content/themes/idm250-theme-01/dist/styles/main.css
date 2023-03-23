@@ -122,12 +122,12 @@ a:hover{
 }
 
 ul{
-  margin: 4rem 16rem;
+  margin: 0.5rem;
   list-style-type: circle; 
 }
 
 ol{
-  margin: 4rem 16rem;
+  margin: 0.5rem;
   list-style-type: numbers;
 }
 
