@@ -23,7 +23,9 @@
   --dark-brown: #452415;
   --mud: #764E42;
   --beige: #F2E5D3;
+  --pine-nut: #f9f5ee;
   --pale-ochre: #D6BA92;
+  --pistachio: #E2E5D7;
   --olive: #868966;
   --pine-leaves: #34383B;
   --coal: #120C0B;
@@ -108,21 +110,26 @@ blockquote{
   width: 60%;
   align-items: center;
   margin: 2rem auto;
-  background-color: var(--beige);
+  background-color: var(--pine-nut);
+  padding: 5rem;
 }
+
 blockquote p{
   font-size: 2rem;
-  color: black;
+  color: var(--brick-red);
   text-align: center;
   font-family: 'Forum';
+  line-height: 40px;
 }
 
 cite{
-  font-size: 1rem;
-  color: var(--coal);
-  opacity: 70%;
-  text-align: center;
+  font-size: 1.4rem;
+  color: var(--terracotta);
+  opacity: 100%;
   font-family: 'Open-Sans-Italic';
+  display: flex;
+  justify-content: end;
+  padding: 1rem 4rem;
 }
 
 a{
@@ -136,6 +143,7 @@ a:hover{
 
 ul{
   margin: 0.5rem;
+  margin-left: 4rem;
   list-style-type: circle; 
 }
 
@@ -145,9 +153,9 @@ ol{
 }
 
 li{
-  font-size: 1.4rem;
-  font-family: 'Forum';
-  line-height: 30px;
+  font-size: 1.5rem;
+  font-family: 'Open-Sans';
+  line-height: 40px;
 }
 
 
