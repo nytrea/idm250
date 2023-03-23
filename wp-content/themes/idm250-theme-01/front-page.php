@@ -5,12 +5,13 @@
 ?></h1> -->
 
 <!-- if there's a featured image it'll be registered here -->
-<?php
-if (has_post_thumbnail()){
-    the_post_thumbnail();
-}
 
-?>
+
+<div>
+   <div class="hero-image-container overlay">
+   </div>
+</div>
+
 
 <!-- <div class="title">
    <h1> <?php 
@@ -21,4 +22,3 @@ if (has_post_thumbnail()){
 <!-- used to block out content on a page -->
 <?php get_template_part('components/content');?>
 
-<?php get_footer(); ?>

@@ -146,7 +146,6 @@ header {
     justify-content: center;
     background-color: #fff;
     height: 8rem;
-    margin-bottom: 2em;
     font-family: 'Forum';
   }
 
@@ -157,7 +156,7 @@ header {
 }
 
 .nav-title-container{
-  margin: 4rem 0;
+  margin: 4rem 0 0 0;
   display: block;
   float: left;
 }
@@ -202,6 +201,36 @@ header {
   color: var(--pale-ochre);
     transition: ease-in, 0.1s;
 }
+
+
+/* front page */
+.hero-image-container{
+  width: 100%;
+  min-height: 36rem;
+  background-image: url('https://nytrea.com/idm250/wp-content/uploads/2023/03/image-21.jpg');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60rem;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+
 
 /* single page content */
 .single-page-title{
@@ -310,6 +339,15 @@ header {
 
 .attachment-post-thumbnail{
   width: 50%;
+}
+
+.article-text-container{
+  align-items: center;
+}
+
+.article-text-container p{
+  width: 60%;
+  margin: 4rem auto;
 }
 
 /* Items in Collection */
