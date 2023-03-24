@@ -64,8 +64,12 @@ h4{
   font-size: 1.8rem;
   font-family: 'Forum';
   text-align: center;
-  margin: 2rem 14rem;
+  margin: 2rem 0;
   line-height: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 16px;
+  padding: 0.5rem 3rem;
 }
 
 h5{
@@ -153,13 +157,14 @@ ul{
 ol{
   margin: 0.5rem auto;
   list-style-type: numbers;
-  width: 60%;
+  width: 50%;
 }
 
 ul li{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Open-Sans';
-  line-height: 40px;
+  line-height: 30px;
+  color: var(--mud);
 }
 
 
@@ -167,6 +172,8 @@ ol li{
   font-size: 1.2rem;
   font-family: 'Open-Sans';
   line-height: 35px;
+  color: var(--mud);
+  padding:1rem 0.5rem;
 }
 
 iframe{
