@@ -375,13 +375,12 @@ header {
 
 /* footer styles */
   footer{
-    margin-top: 2rem;
-    background-color: var(--beige);
+    margin: 2rem 0;
     height: 10rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    opacity: 70%;
+    opacity: 80%;
     bottom: 0;
   }
 
