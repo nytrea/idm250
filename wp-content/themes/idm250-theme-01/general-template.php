@@ -16,6 +16,10 @@ get_header();
    </div>
 </div>
 
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <?php echo get_the_title(); ?>
+</h2>
+
 <!-- used to block out content on a page -->
 <?php get_template_part('components/content');?>
 
