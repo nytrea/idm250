@@ -254,27 +254,37 @@ header {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    height: 8rem;
-    font-family: 'Forum';
   }
 
 .nav-container{
   width: 100%;
   box-shadow: 0 4px 2px -2px rgb(210, 210, 210);
-  padding: 0 10rem;
 }
 
 .nav-title-container{
-  margin: 4rem 0 0 0;
-  display: block;
-  float: left;
+  margin: 2rem auto;
+  padding-top: 2rem;
+  text-align: center;
+  /* display: block;
+  float: left; */
 }
 
+.nav-title{
+  font-family: 'Forum';
+  color: var(--dark-brown);
+  font-size: 2.8rem;
+  text-decoration: none;
+}
+
+.nav-title:hover{
+  color: var(--terracotta);
+  transition: ease-in, 0.1s;
+}
 
 .menu-header-menu-01-container{
-  margin: 4rem 0;
-  display: block;
-  float: right;
+  display: flex; 
+  justify-content: center; 
+  padding-bottom: 2rem;
 }
 
 .menu-header-menu-01-container ul{
@@ -286,29 +296,12 @@ header {
   list-style-type: none;
 }
 
-.nav-title{
-    font-family: 'Forum';
-    color: var(--dark-brown);
-    font-size: 2.5rem;
-    text-decoration: none;
-}
-
-.nav-title:hover{
-    color: var(--terracotta);
-    transition: ease-in, 0.1s;
-}
-
 .menu-item{
   padding: 0.5rem 2.5rem;
   font-family: 'Open-Sans';
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: var(--terracotta);
-}
-
-.menu-item:hover{
-  color: var(--pale-ochre);
-    transition: ease-in, 0.1s;
 }
 
 
@@ -469,33 +462,16 @@ header {
       line-height: 1.6rem;
     }
   
-    nav-container{
-      width: 100%;
-      padding: 0;
-      height: 12rem;
-    }
-    
     .nav-title-container{
-      margin: 0 auto;
+      margin: 1rem auto;
+    }
 
-    }
-    
-    .menu-header-menu-01-container{
-      margin: 1rem;
-    }
-    
     .nav-title{
-        font-family: 'Forum';
-        color: var(--dark-brown);
-        font-size: 2.2rem;
-        text-decoration: none;
-        text-align: center;
+      font-size: 2.6rem;
     }
-    
-    .menu-item{
-      font-family: 'Open-Sans';
-      font-size: 1.1rem;
-      text-decoration: none;
+
+    .menu-header-menu-01-container{
+      width: 100%;
     }
   }
 
@@ -512,30 +488,126 @@ header {
       line-height: 1.6rem;
     }
   
-    nav-container{
+    .nav-title-container{
+      margin: 1rem auto;
+    }
+
+    .nav-title{
+      font-size: 2.6rem;
+    }
+
+    .menu-header-menu-01-container{
+      width: 100%;
+    }
+  
+    .menu-item{
+      padding: 0.8rem;
+    }
+
+    .hero-image-container{
+      min-height: 12rem;
+    }
+
+    h1{
+      padding: 1rem;
+      margin: 1rem auto;
+      font-size: 1.7rem;
+      width: 80%;
+      line-height: 40px;
+    }
+
+    h2{
+      color: var(--brick-red);
+      font-size: 2.5rem;
+      margin: 2rem 0;
+
+    }
+    
+    
+    h3{
+      font-size: 1.4rem;
+      font-family: 'Open-Sans';
+      text-align: center;
+      line-height: 30px;
+      margin: 0;
+      margin-bottom: 0.5rem;
+    }
+    
+    h4{
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+    
+    h5{
+        width: 80%;
+        margin: 1rem auto;
+        font-family: 'Open-Sans';
+        font-size: 1rem;
+        line-height: 2rem;
+    
+    }
+    
+    h6{
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 0rem;
+      display: flex;
+      
+    }
+
+    blockquote{
+      width: 90%;
+      margin: 1rem auto;
+      padding: 2rem 1rem;
+    }
+    
+    blockquote p{
+      font-size: 1.3rem;
+      line-height: 30px;
+      margin: 0;
+      margin-top: 1rem;
+    }
+
+    cite{
+      font-size: 1.2rem;
+      padding: 1rem 2rem;
+    }
+
+    .blog-listing-image{
       width: 80%;
     }
     
-    .nav-title-container{
-      display: block;
-      margin: 2rem;
+    .blog-listing-date{
+      margin-bottom: 3rem;
     }
     
-    .menu-header-menu-01-container{
-      display: block;
-      margin: 1rem;
+    .article-text-container p{
+      width: 85%;
+      margin: 2rem auto;
+      line-height: 30px;
+      font-size: 1rem;
     }
-    
-    .nav-title{
-        font-family: 'Forum';
-        color: var(--dark-brown);
-        font-size: 2.2rem;
-        text-decoration: none;
-    }
-    
-    .menu-item{
+
+    ul li{
+      font-size: 1.2rem;
       font-family: 'Open-Sans';
-      font-size: 1.1rem;
-      text-decoration: none;
+      line-height: 30px;
+      color: var(--mud);
     }
+
+    ol{
+      width: 70%;
+    }
+
+    ol li{
+      font-size: 1.1rem;
+      line-height: 35px;
+      padding: 0.6rem 0.2rem;
+    }
+
+    iframe{
+      margin: 1rem auto;
+      width: 80%;
+    }
+    
   }
