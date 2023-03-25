@@ -25,15 +25,7 @@
         $menu = wp_nav_menu(['theme_location' => 'primary-menu']);
     ?>
         <div class="nav-links-container">
-            <ul class="nav-links">
-                <?php
-                // foreach ($menu as $menu_item) {
-                //     echo "
-                //         <li class='nav-link'>
-                //             <a href='{$menu_item->url}'>{$menu_item->title}</a>
-                //         </li>
-                //         ";
-                // }?>
+            <ul class="nav-links">       
             </ul>
         </div>
     </div>
