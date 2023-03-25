@@ -64,12 +64,14 @@ h4{
   font-size: 1.8rem;
   font-family: 'Forum';
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem 6rem;
   line-height: 40px;
-  text-decoration: underline;
+
+  /* text-decoration: underline;
   text-decoration-thickness: 1.5px;
-  text-underline-offset: 16px;
+  text-underline-offset: 16px; */
   padding: 0.5rem 3rem;
+  color: var(--terracotta);
 }
 
 h5{
@@ -321,6 +323,16 @@ header {
 
 .hero-image{
   width: 100%;
+  margin: 0;
+}
+
+.hero-text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
   margin: 0;
 }
 

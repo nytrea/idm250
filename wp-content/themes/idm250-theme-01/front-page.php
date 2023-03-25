@@ -11,7 +11,13 @@
    <div class="hero-image-container" style="background-image: url(
       <?php echo get_the_post_thumbnail_url(); ?>
       )">
-      <?php the_field('hero_home'); ?>
+
+      <h1 class="hero-text">
+         <?php the_field('hero_home'); ?>
+      </h1>
+
+
+      
    </div>
 </div>
 
